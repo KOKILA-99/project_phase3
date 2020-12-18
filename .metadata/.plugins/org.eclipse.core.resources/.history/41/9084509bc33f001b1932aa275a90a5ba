@@ -1,0 +1,6 @@
+spring.application.name=product boot app
+server.port=9200
+spring.jpa.show-sql=true
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.jpa.properties.hibernate.format_sql=true

@@ -1,0 +1,3 @@
+spring.application.name=product boot app consumer
+server.port=9300
+spring.datasource.url=jdbc:h2:~/test

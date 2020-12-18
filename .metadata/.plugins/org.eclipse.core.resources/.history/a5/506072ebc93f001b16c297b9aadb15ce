@@ -1,0 +1,40 @@
+package com.demo.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.demo.model.Report;
+import com.demo.service.ReportService;
+
+@Service
+public class ReportServiceImpl implements ReportService {
+	
+	private String url="http://localhost:9100/report/";
+	private String urlReportss="http://localhost:9100/reports/";
+
+	@Override
+	public Report addReport(Report report) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Report> getAllReports() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Report> getReportsByCategory(String category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Report> getReportsByDate(String date) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

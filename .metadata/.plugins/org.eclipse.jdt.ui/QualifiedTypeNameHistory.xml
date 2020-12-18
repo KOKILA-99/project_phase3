@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.login.app.exception.BusinessException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.employee.dao.EmployeeSearchDAO"/>
+    <fullyQualifiedTypeName name="com.employee.dao.impl.EmployeeSearchDAOImpl"/>
+    <fullyQualifiedTypeName name="com.employee.search.impl.EmployeeSearchImpl"/>
+    <fullyQualifiedTypeName name="com.employee.search.Employeesearch"/>
+    <fullyQualifiedTypeName name="com.employee.model.Subject"/>
+    <fullyQualifiedTypeName name="com.ecommerce.dao.AdminDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.demo.model.Product"/>
+    <fullyQualifiedTypeName name="com.demo.repository.ProductRepository"/>
+    <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+    <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="com.demo.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.demo.model.User"/>
+    <fullyQualifiedTypeName name="com.demo.repository.ReportRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="com.demo.model.Report"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="com.demo.model.Admin"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.demo.repository.AdminRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.demo.model.Shoes"/>
+    <fullyQualifiedTypeName name="com.demo.service.AdminService"/>
+    <fullyQualifiedTypeName name="com.demo.service.UserService"/>
+    <fullyQualifiedTypeName name="com.demo.service.ReportService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+</qualifiedTypeNameHistroy>

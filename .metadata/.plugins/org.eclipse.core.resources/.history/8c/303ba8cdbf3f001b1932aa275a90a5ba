@@ -1,0 +1,72 @@
+package com.demo.service.impl;
+
+import java.util.List;
+
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.demo.model.Shoe;
+import com.demo.model.Shoes;
+import com.demo.service.ShoeService;
+
+@Service
+public class ShoeServiceImpl implements ShoeService {
+	
+	private String url="http://localhost:9200/shoe/";
+	private String urlProducts="http://localhost:9200/shoes/";
+	
+	//use RestTemplate API for making the calls to any RESTful services and consume them in the current application.
+	private RestTemplate restTemplate=new RestTemplate();
+
+	@Override
+	public Shoes addProduct(Shoes shoe) {
+		
+		return restTemplate.postForObject(url, shoe, Shoes.class);
+	}
+
+	@Override
+	public Shoes updateProduct(Shoes shoe) {
+		
+		restTemplate.put(url, shoe);
+		return shoe;
+	}
+
+	@Override
+	public Shoes getProductById(int id) {
+		ResponseEntity<Shoes> response=restTemplate.exchange(url+id, HttpMethod.GET,null,Shoes.class);
+		return response.getBody();
+	}
+
+	@Override
+	public void deleteProductById(int id) {
+		restTemplate.delete(url+id);
+		
+	}
+
+	@Override
+	public List<Shoe> getAllShoes() {
+		ResponseEntity<List<Shoe>> response=restTemplate.exchange(urlProducts, 
+				HttpMethod.GET,
+				null,
+				new ParameterizedTypeReference<List<Shoe>>() {
+		});
+		return response.getBody();
+	}
+
+	@Override
+	public List<Shoes> getShoesByCategory(String manufacturerName) {
+		
+		ResponseEntity<List<Shoes>> response=restTemplate.exchange(urlProducts+manufacturerName, 
+				HttpMethod.GET,
+				null,
+				new ParameterizedTypeReference<List<Shoes>>() {
+		});
+		return response.getBody();
+	}
+
+	
+
+}

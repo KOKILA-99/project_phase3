@@ -1,0 +1,34 @@
+package com.demo.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.demo.model.Admin;
+import com.demo.service.AdminService;
+
+@Service
+public class AdminServicceImpl implements AdminService {
+	
+	private String url="http://localhost:9100/admin/";
+	private String urlAdmins="http://localhost:9100/adminss/";
+
+	@Override
+	public Admin addadmin(Admin admin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Admin updateadmin(Admin admin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Admin> getAlladmins() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

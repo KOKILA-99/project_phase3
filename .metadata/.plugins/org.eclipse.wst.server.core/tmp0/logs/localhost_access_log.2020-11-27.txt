@@ -1,0 +1,11 @@
+127.0.0.1 - - [27/Nov/2020:13:38:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:34 +0530] "GET /phase2_project/ HTTP/1.1" 200 517
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:49 +0530] "POST /phase2_project/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:49 +0530] "GET /phase2_project/view.jsp HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:53 +0530] "GET /phase2_project/search?value=3 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:53 +0530] "GET /phase2_project/results.jsp HTTP/1.1" 200 1058
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:38:56 +0530] "POST /phase2_project/view.jsp HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:39:02 +0530] "GET /phase2_project/search?value=6 HTTP/1.1" 200 531
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:39:05 +0530] "GET /phase2_project/logoff HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:39:05 +0530] "GET /phase2_project/logout.jsp HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [27/Nov/2020:13:39:07 +0530] "POST /phase2_project/login.jsp HTTP/1.1" 200 517
